@@ -1,0 +1,19 @@
+# Angular
+/AngularFrontend/node_modules
+/AngularFrontend/dist
+/AngularFrontend/.angular
+
+# Django
+/DjangoBackend/__pycache__
+/DjangoBackend/*.pyc
+/DjangoBackend/*.pyo
+/DjangoBackend/*.pyd
+/DjangoBackend/db.sqlite3
+/DjangoBackend/media
+/DjangoBackend/static
+/DjangoBackend/env
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
