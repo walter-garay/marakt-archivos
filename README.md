@@ -1,4 +1,29 @@
-## Requerimientos Funcionales
+## REQUERIMIENTOS TÉCNICOS
+
+1. **Tecnologías Utilizadas:**
+   - Backend: Django para la lógica de servidor y la gestión de bases de datos.
+   - Frontend: Angular para la interfaz de usuario interactiva.
+   - Se debe implementar una comunicación eficiente entre el frontend y el backend a través de la libreria API REST FRAMEWORK de Django.
+
+2. **Base de Datos:**
+   - Se utilizara el servicio de base de datos SQLite3 para manejar eficientemente el almacenamiento de archivos.
+
+3. **Gestión de Usuarios:**
+   - Implementar un sistema de gestión de usuarios.
+   - Garantizar la persistencia de los datos de usuario en la base de datos.
+4. **Dependencias:**
+   
+    ----------FRONTEND--------------
+    - @angular/animations": "^16.2.0",
+    - "@angular/cdk": "^16.2.0",
+    - "@angular/common": "^16.2.0",
+    - "@angular/forms": "^16.2.0",
+    - "primeicons": "^6.0.1",
+    - "primeng": "^16.2.0",
+      
+   ----------BACKEND----------------
+
+## REQUERIIENTOS FUNCIONALES
 
 ### David Garay
 
@@ -38,7 +63,7 @@
 5. **Visualización de Archivos por Usuario:**
    - El sistema debe mostrar de manera clara la lista de archivos subidos por cada usuario en su sesión.
 
-## Requerimientos No Funcionales
+## REQUERIMIENTOS NO FUNCIONALES
 
 1. **Seguridad:**
    - El sistema debe implementar medidas de seguridadpara proteger la integridad y confidencialidad de los datos del usuario.
@@ -49,17 +74,3 @@
 
 3. **Escalabilidad:**
    - La arquitectura del sistema debe ser escalable para permitir futuras expansiones y ajustes de capacidad.
-
-## Requerimientos Técnicos
-
-1. **Tecnologías Utilizadas:**
-   - Backend: Django para la lógica de servidor y la gestión de bases de datos.
-   - Frontend: Angular para la interfaz de usuario interactiva.
-   - Se debe implementar una comunicación eficiente entre el frontend y el backend a través de la libreria API REST FRAMEWORK de Django.
-
-2. **Base de Datos:**
-   - Se utilizara el servicio de base de datos SQLite3 para manejar eficientemente el almacenamiento de archivos.
-
-3. **Gestión de Usuarios:**
-   - Implementar un sistema de gestión de usuarios.
-   - Garantizar la persistencia de los datos de usuario en la base de datos.
