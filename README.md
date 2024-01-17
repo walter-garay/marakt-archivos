@@ -13,12 +13,12 @@
    - Garantizar la persistencia de los datos de usuario en la base de datos.
 4. **Dependencias:**
     ----------FRONTEND--------------
-    @angular/animations": "^16.2.0",
-    "@angular/cdk": "^16.2.0",
-    "@angular/common": "^16.2.0",
-    "@angular/forms": "^16.2.0",
-    "primeicons": "^6.0.1",
-    "primeng": "^16.2.0",
+    - @angular/animations": "^16.2.0",
+    - "@angular/cdk": "^16.2.0",
+    - "@angular/common": "^16.2.0",
+    - "@angular/forms": "^16.2.0",
+    - "primeicons": "^6.0.1",
+    - "primeng": "^16.2.0",
    ----------BACKEND----------------
 
 ## REQUERIIENTOS FUNCIONALES
