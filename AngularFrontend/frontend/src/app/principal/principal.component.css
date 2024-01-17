@@ -15,7 +15,7 @@ body {
 }
 
 .conteiner {
-    max-width: 1000px;
+    max-width: 12000px;
     margin: 0 auto;
     margin-left: 40px;
 }
@@ -33,37 +33,54 @@ body {
     margin-left: 20px;
 }
 
+.conteiner .nave ul li {
+    position: relative;
+    float: left;
+    margin-right: -1170px;
+}
+
+.conteiner .nave ul {
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner .nave ul li a {
+    font-size: 16px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    margin-left: 1170px;
+    margin-top: -43px;
+}
+
+.conteiner .nave ul li a:hover {
+    color: rgb(156, 0, 0);
+}
 .conteiner1 {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 580px;
 }
 
 input {
-    width: 350px;
+    width: 500px;
     padding: 10px;
-    padding-right: 300px;
+    padding-right: 200px;
     border-radius: 5px 0 0 5px;
     border: 0;
     outline: none;
-    font-size: 1rem;
 }
 
-button {
-    background-color: crimson;
-    padding: 10px 15px;
-    position: absolute;
-    margin: auto;
-    border-radius: 0 5px 5px 0;
-    color: #FFFFFF;
-    cursor: pointer;
+.conteiner1 input {
+    margin-top: -33px;
 }
 
-button:hover {
-    background-color: black;
-}
+.gestor {
+    font-size: 18px;
+    
+} 
 
