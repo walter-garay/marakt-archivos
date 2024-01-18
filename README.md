@@ -1,16 +1,80 @@
-# Requerimientos
+## REQUERIMIENTOS TÉCNICOS
+
+1. **Tecnologías Utilizadas:**
+   - Backend: Django 5 para la lógica de servidor y la gestión de bases de datos.
+   - Frontend: Angular 16 para la interfaz de usuario interactiva.
+   - Se debe implementar una comunicación eficiente entre el frontend y el backend a través de la libreria API REST FRAMEWORK de Django.
+
+2. **Base de Datos:**
+   - Se utilizara el servicio de base de datos SQLite3 para manejar eficientemente el almacenamiento de archivos.
+
+3. **Gestión de Usuarios:**
+   - Implementar un sistema de gestión de usuarios.
+   - Garantizar la persistencia de los datos de usuario en la base de datos.
+     
+4. **Dependencias:**
+    ----------FRONTEND--------------
+    - @angular/animations": "^16.2.0",
+    - "@angular/cdk": "^16.2.0",
+    - "@angular/common": "^16.2.0",
+    - "@angular/forms": "^16.2.0",
+    - "primeicons": "^6.0.1",
+    - "primeng": "^16.2.0",
+      
+   ----------BACKEND----------------
+   - Django: 5.0.1
+   - django-cors-headers: 4.3.1
+   - djangorestframework: 3.14.0
+  
+## REQUERIIENTOS FUNCIONALES
+
 ### David Garay
-El sistema debe:
-- Permitir subir uno o varios archivos a la vez
-- Buscar los archivos por nombre y por propietario
-- Mostrar el nombre, tamaño y propietario de cada archivo
-- Descargar archivos
-- Registrar usuario
-- Editar los datos del usuario
+
+1. **Subida de Archivos:**
+   - El sistema debe permitir la carga de uno o varios archivos simultáneamente en la base de datos.
+   - Los archivos subidos deben ser gestionados y almacenados de manera segura en el sistema de base de datos.
+
+2. **Búsqueda de Archivos:**
+   - El sistema debe contar con una barra de búsqueda que permita buscar archivos por nombre.
+   - El sistema debe contar con un dropdown que permita filtrar archivos por el nombre de su propietario.
+
+3. **Visualización de Información de Archivos:**
+   - El sistema debe mostrar de manera clara y en forma de lista el nombre, tamaño y propietario de cada archivo en la interfaz.
+
+4. **Descarga de Archivos:**
+   - Los usuarios deben poder descargar archivos almacenados en la base de datos de forma segura.
+
+5. **Registro de Usuario:**
+   - Se debe implementar un sistema de registro que permita a los usuarios crear cuentas de manera segura.
+
+6. **Edición de Datos del Usuario:**
+   - Los usuarios registrados deben tener la capacidad de editar sus datos de usuario, como nombre, correo electrónico, etc.
+
 ### Erickson Meliano
-El sistema debe:
-- Tener una Interfaz sencilla y amigable 
-- Editar los nombres de los archivos subidos
-- Eliminar los archivos subidos
-- Permitir iniciar y cerrar sesión
-- Mostrar los archivos subidos por cada usuario
+
+1. **Interfaz de Usuario:**
+   - El sistema debe ofrecer una interfaz de usuario intuitiva, sencilla y amigable, siguiendo las mejores prácticas de diseño.
+
+2. **Edición de Nombres de Archivos:**
+   - Se debe proporcionar la capacidad de editar los nombres de los archivos previamente subidos por los usuarios.
+
+3. **Eliminación de Archivos:**
+   - Los usuarios deben poder eliminar archivos que hayan subido previamente, con la garantía de que la operación sea segura.
+
+4. **Autenticación de Usuario:**
+   - El sistema deber contar con funcionalidades de autenticación para que los usuarios los usuarios puedan iniciar y cerrar sesión de manera segura.
+     
+5. **Visualización de Archivos por Usuario:**
+   - El sistema debe mostrar de manera clara la lista de archivos subidos por cada usuario en su sesión.
+
+## REQUERIMIENTOS NO FUNCIONALES
+
+1. **Seguridad:**
+   - El sistema debe implementar medidas de seguridadpara proteger la integridad y confidencialidad de los datos del usuario.
+   - La comunicación entre el frontend (Angular) y el backend (Django) debe ser segura utilizando HTTPS.
+
+2. **Rendimiento:**
+   - El sistema debe ser eficiente y capaz de manejar cargas de trabajo variables, garantizando un rendimiento óptimo incluso con múltiples usuarios concurrentes.
+
+3. **Escalabilidad:**
+   - La arquitectura del sistema debe ser escalable para permitir futuras expansiones y ajustes de capacidad.
