@@ -8,7 +8,6 @@
 /DjangoBackend/*.pyc
 /DjangoBackend/*.pyo
 /DjangoBackend/*.pyd
-/DjangoBackend/db.sqlite3
 /DjangoBackend/media
 /DjangoBackend/static
 /DjangoBackend/env
