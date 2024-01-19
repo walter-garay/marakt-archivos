@@ -7,23 +7,23 @@
 }
 
 .conteiner {
-    max-width: 12000px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-left: 40px;
 }
 
 .back {
-    padding: 32px 0;
+    padding: 60px 0;
     background-color: #080aa3;
 }
 
 .merakt {
-    font-size: 24px;
+    font-size: 40px;
     color: #FFFFFF;
     font-weight: 900;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .conteiner .nave ul li {
@@ -38,67 +38,69 @@
 }
 
 .conteiner .nave ul li a {
-    font-size: 16px;
+    font-size: 25px;
     padding: 20px;
     color: #FFFFFF;
     display: block;
-    font-weight: 600;
+    font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1170px;
-    margin-top: -43px;
+    margin-left: 1420px;
+    margin-top: -58px;
+    margin-right: -240px;
 }
 
 .conteiner .nave ul li a:hover {
     color: rgb(156, 0, 0);
 }
 .conteiner1 {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 580px;
+    margin-left: 750px;
 }
 
 input {
-    width: 500px;
-    padding: 10px;
+    width: 1000px;
+    padding: 15px;
     padding-right: 200px;
-    border-radius: 5px 0 0 5px;
+    border-radius: 15px 15px;
     border: 0;
     outline: none;
 }
 
 .conteiner1 input {
-    margin-top: -33px;
+    margin-top: -50px;
 }
 
 .titulo {
     color: rgb(0, 0, 0);
-    font-size: 55px;
+    font-size: 100px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .conteiner2 {
-    margin-left: 480px;
+    margin-left: 380px;
     margin-top: 210px;
 }
 
 .conteiner3 {
-    margin-left: 700px;
-    margin-top: 50px;
+    margin-left: 800px;
+    margin-top: 70px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .boton {
     width: 10px;
     font-weight: 700;
-    border-radius: 10px;
-    padding: 15px 25px;
+    border-radius: 100px;
+    padding: 25px 50px;
     background-color: #080aa3;
     border: 3px solid;
     color: #FFFFFF;
